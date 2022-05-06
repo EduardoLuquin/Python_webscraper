@@ -75,7 +75,7 @@ def send_mail():
     server.ehlo()
 
     #Loggear al correo electronico
-    server.login('eduardo.partialcount@gmail.com','Lk530881')
+    server.login('eduardo.partialcount@gmail.com','')
 
     #Definir contenido del email
     Subject_var = 'Python Script: Producto en oferta'
